@@ -24,7 +24,7 @@ I begin by resetting the index and renaming the columns of my data to ensure the
 
 All null value rows are dropped as they cause problems for Prophet's predictive ability.
 
-I build the Prohet model.
+I build the Prophet model.
 
 .fit the dataframe to our model.
 
@@ -76,7 +76,7 @@ And across the week search traffic is highest during the early and late hours of
 
 ![Close v Search Trend](Images/Close_v_Search_Trend.JPG)
 
-There seems to no strong correlation between lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns.
+There seems to be no strong correlation between lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns.
 
 ![Correlation Matrix](Images/correlations.JPG)]
 
